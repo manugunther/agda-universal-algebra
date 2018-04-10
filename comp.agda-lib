@@ -1,0 +1,4 @@
+name: AlgebraApproach  -- Comment
+depend: standard-library
+include:
+    .
