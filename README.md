@@ -1,4 +1,4 @@
-*** Formalization of Universal Algebra in Agda ***
+## Formalization of Universal Algebra in Agda
 
 This development corresponds to the formalization of 
 Universal Algebra in Agda, accepted for presentation in LSFA 2017.
@@ -6,7 +6,7 @@ Universal Algebra in Agda, accepted for presentation in LSFA 2017.
 This README file contains instructions to install agda and compile
 the library, and a description of the modules.
 
-** Installation **
+## Installation
 
 The formalization was tested on Ubuntu with Agda 2.5.2 installed and
 the standard library version 0.13.
@@ -33,7 +33,7 @@ library in Ubuntu:
        	 (load-file (let ((coding-system-for-read 'utf-8))
                 (shell-command-to-string "agda-mode locate")))
 
-** Modules **
+### Modules
 
 The formalization is modularized in these files:
 
@@ -80,7 +80,7 @@ The formalization is modularized in these files:
 	  deduction system is not sound. As can be seen in this module,
 	  our formalization prevents that their example can be completed.
 
-** Using the library **
+## Using the library 
 
 You can load a file in emacs and type-check it with the command "C-c C-l".
 Alternatively one uses the type-checker from the command line:
@@ -88,3 +88,4 @@ Alternatively one uses the type-checker from the command line:
   
 A reference with commands to edit, type check and compile Agda code in emacs is
 available online: http://agda.readthedocs.io/en/latest/tools/emacs-mode.html
+
